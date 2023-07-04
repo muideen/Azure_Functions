@@ -1,0 +1,12 @@
+{
+  "scriptFile": "func_load_to_sf_init.py",
+  "bindings": [
+    {
+      "name": "blob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "landing-zone/{name}",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
